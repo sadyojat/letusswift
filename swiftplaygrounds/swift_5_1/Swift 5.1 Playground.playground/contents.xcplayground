@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='OperatorMethods'/>
+        <page name='Closures'/>
+        <page name='Map Function  Examples'/>
+        <page name='MergeSort'/>
+        <page name='Algorithmic Implementations'/>
+        <page name='Graph  Algorithms'/>
+        <page name='Pramp'/>
+        <page name='Data Structures'/>
+        <page name='Heap Data  Structure'/>
+        <page name='Generics'/>
+        <page name='Graphs'/>
+        <page name='Opaque Types'/>
+        <page name='Associated Objects'/>
+        <page name='ObjC Runtime'/>
+        <page name='Advanced String manipulations'/>
+    </pages>
+</playground>
