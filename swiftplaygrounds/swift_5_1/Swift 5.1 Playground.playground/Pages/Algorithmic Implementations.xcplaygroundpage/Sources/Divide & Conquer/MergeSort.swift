@@ -12,14 +12,13 @@ public func merge(_ left: [Int], _ right: [Int]) -> [Int] {
     var left = left, right = right
     
     var sorted = [Int]()
-    repeat {
-        guard let l = left.first, let r = right.first else { break }
+    while let l = left.first, let r = right.first {
         if l < r {
-            sorted = sorted + [left.removeFirst()]
+            sorted += [left.removeFirst()]
         } else {
-            sorted = sorted + [right.removeFirst()]
+            sorted += [right.removeFirst()]
         }
-    } while left.count > 0 && right.count > 0
+    }
     
     return sorted + left + right
 }
