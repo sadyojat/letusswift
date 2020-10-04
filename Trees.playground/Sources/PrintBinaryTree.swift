@@ -22,8 +22,7 @@ public class PrintBinaryTree {
     func printTree(_ root: TreeNode?) -> [[String]] {
         return fill(root, height(root))
     }
-    
-    
+        
     func height(_ root: TreeNode?) -> Int {
         guard let root = root else {
             return 0
