@@ -1,6 +1,6 @@
 import Foundation
 
-public class TreeNode {
+open class TreeNode {
      public var val: Int
      public var left: TreeNode?
      public var right: TreeNode?
